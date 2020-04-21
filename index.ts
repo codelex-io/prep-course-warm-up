@@ -8,15 +8,6 @@ app.innerHTML = `<h1>CODELEX</h1>`;
     case "00":
       await import("./src/00-hello-world");
       break;
-    case "01":
-      await import("./src/01-syntax-error");
-      break;
-    case "02":
-      await import("./src/02-syntax-error");
-      break;
-    case "03":
-      await import("./src/03-syntax-error");
-      break;
     case "04":
       await import("./src/04-logic-error");
       break;
@@ -103,9 +94,6 @@ app.innerHTML = `<h1>CODELEX</h1>`;
       break;
     case "32":
       await import("./src/32-min-max");
-      break;
-    case "33":
-      await import("./src/33-temperature-conversion");
       break;
     case "34":
       await import("./src/34-multiply-map");
