@@ -1,6 +1,6 @@
 # CODELEX Prep-Course Warm-Up 🔥
 
-This project is available [here @stackblitz.com](https://stackblitz.com/edit/codelex-prep-warm-up?file=src/00-hello-world.ts)
+This project is available [here @stackblitz.com](https://stackblitz.com/fork/codelex-prep-warm-up?file=src/00-hello-world.ts)
 
 ## Running an Exercise
 
