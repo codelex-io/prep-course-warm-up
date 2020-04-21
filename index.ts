@@ -1,5 +1,5 @@
 const app: HTMLElement = document.getElementById("app");
-app.innerHTML = `<h1>CODELEX</h1>`;
+app.innerHTML = `<h1><a href="https://codelex.io" target="_blank">CODELEX</a></h1>`;
 
 (async () => {
   const path = window.location.pathname;
