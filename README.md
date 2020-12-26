@@ -14,6 +14,8 @@ Here is a short video which explains what is `npm` and `libraries` / `packages` 
 
 [🍿 What is npm? [3min video] @youtube.com](https://www.youtube.com/watch?v=pa4dc480Apo)
 
+[Here @blog.scottlogic.com](https://blog.scottlogic.com/2020/12/22/software-crisis.html) is an interesting blog post about the dependency hell.
+
 ## Executing Code
 
 In the `src` directory are many code puzzles which you need to solve.
