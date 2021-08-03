@@ -11,5 +11,8 @@
   "dependencies": {
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
   }
 }
