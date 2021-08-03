@@ -1,0 +1,11 @@
+{
+  "name": "Node.js",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "16" }
+  },
+  "settings": {},
+  "extensions": ["esbenp.prettier-vscode", "dracula-theme.theme-dracula"],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
