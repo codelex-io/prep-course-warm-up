@@ -1,3 +1,4 @@
 vscode:
   extensions:
     - esbenp.prettier-vscode
+    - dracula-theme.theme-dracula
