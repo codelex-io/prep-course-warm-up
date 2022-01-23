@@ -1,5 +1,10 @@
 export {};
 
+/**
+ * Try to find at least two different solutions for this exercise,
+ * one of which does not use built-in Math methods.
+ */
+
 const min = array => {};
 
 const max = array => {};

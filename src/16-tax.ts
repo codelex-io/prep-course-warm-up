@@ -1,6 +1,11 @@
 export {};
 
 /**
+ * Let's try to use our knowledge about functions to try
+ * and build a tool you could use in real life.
+ */
+
+/**
  * Sales Tax
  *
  * A business requires a program that calculates how much sales tax to charge
