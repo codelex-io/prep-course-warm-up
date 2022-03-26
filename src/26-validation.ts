@@ -1,11 +1,11 @@
 export {};
 
 /**
- * Complete the function to if passed argument satisfies the following:
+ * Complete the function to check if passed argument satisfies the following:
  *
  *  - is a number
  *  - is an integer (not a float)
- *  - is not equal any of the numbers in the array `excludedNums`
+ *  - is not equal to any of the numbers in the array `excludedNums`
  */
 
 const excludedNums = [6, 14, 91, 111];
