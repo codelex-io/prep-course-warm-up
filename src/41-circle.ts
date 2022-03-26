@@ -25,8 +25,4 @@ console.log("Perimeter =", c.perimeter()); // Expected output: Perimeter = 18.85
 /**
  * This was the last exercise in this repository.
  * Congratulations on getting this far!
- * So.. looking for some more? Of course we have more!
- * Head to this repo:
- * - https://github.com/codelex-io/noob-exercises/tree/main/03-easy
- * and happy coding!
  */
