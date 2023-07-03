@@ -2,8 +2,8 @@ export {};
 
 const library = [
   {
-    title: "Bill Gates",
-    author: "The Road Ahead",
+    title: "The Road Ahead",
+    author: "Bill Gates",
     isRead: true
   },
   {
