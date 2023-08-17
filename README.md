@@ -4,7 +4,7 @@ Congratulations you are almost there!
 
 ## Getting Ready
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/codelex-io/prep-course-day-one)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/codelex-io/prep-course-warm-up)
 
 First thing you need to do is type in `npm install` in the terminal to download all the needed packages.
 
