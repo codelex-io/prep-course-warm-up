@@ -25,7 +25,7 @@ showStatus(library);
 /*
   Expected output:
 
-  Already read 'Bill Gates' by The Road Ahead.
+  Already read 'The Road Ahead' by Bill Gates.
   Already read 'Steve Jobs' by Walter Isaacson.
   You still need to read 'Mockingjay: The Final Book of The Hunger Games' by Suzanne Collins.
 
