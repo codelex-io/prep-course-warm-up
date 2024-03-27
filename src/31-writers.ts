@@ -11,27 +11,34 @@ const writers = [
     lastName: "Woolf",
     occupation: "writer",
     age: 59,
-    alive: false
+    alive: false,
   },
   {
     firstName: "Zadie",
     lastName: "Smith",
     occupation: "writer",
     age: 41,
-    alive: true
+    alive: true,
   },
   {
     firstName: "Jane",
     lastName: "Austen",
     occupation: "writer",
     age: 41,
-    alive: false
+    alive: false,
   },
   {
     firstName: "bell",
     lastName: "hooks",
     occupation: "writer",
     age: 64,
-    alive: true
-  }
+    alive: true,
+  },
 ];
+writers.forEach((writer) => {
+  if (writer.alive) {
+    console.log(
+      `Hi, my name is ${writer.firstName} ${writer.lastName}.I am ${writer.age} years old, and work as a ${writer.occupation}. `
+    );
+  }
+});

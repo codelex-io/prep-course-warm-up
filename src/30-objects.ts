@@ -8,18 +8,28 @@ export {};
  * Luckily they're not so difficult to learn. As always w3schools will help:
  *  - https://www.w3schools.com/js/js_objects.asp
  */
-
-const books = [
+type Book = { author?: string; title: string; year?: number; pageCount?: number, publisher?: string };
+const books: Book[] = [
   {
     title: "4 hour work week",
     author: "Tim Ferris"
   },
   {
     title: "Tools of Titans",
-    author: "Tim Ferris"
+    author: "Tim Ferris",
+    year: 1998,
+    pageCount: 309,
+    publisher: 'Zvaigzne'
+  },
+  {
+    title: "Tools of Titans",
+    year: 1998,
+    pageCount: 309,
+    publisher: 'Zvaigzne'
+
   }
 ];
 
-const getTheTitles = () => {};
+const getTheTitles = (books: Book[]) => books.map((book: Book) => book.title);
 
 console.log(getTheTitles(books)); // Expected output: ['4 hour work week', 'Tools of Titans']

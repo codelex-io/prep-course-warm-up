@@ -1,6 +1,12 @@
 export {};
 
-function concatenate(firstWord, secondWord, thirdWord) {
+function concatenate(
+  firstWord: string, 
+  secondWord: string, 
+  thirdWord: string):
+  string {
+    
+  return `${firstWord} ${secondWord} ${thirdWord}`;
   // Write the body of this function to concatenate three words together with space between them
 }
 

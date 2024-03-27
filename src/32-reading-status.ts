@@ -1,24 +1,36 @@
 export {};
-
-const library = [
+interface Book {
+  title: string;
+  author: string;
+  isRead: boolean;
+}
+const library: Book[] = [
   {
     title: "The Road Ahead",
     author: "Bill Gates",
-    isRead: true
+    isRead: true,
   },
   {
     title: "Steve Jobs",
     author: "Walter Isaacson",
-    isRead: true
+    isRead: true,
   },
   {
     title: "Mockingjay: The Final Book of The Hunger Games",
     author: "Suzanne Collins",
-    isRead: false
-  }
+    isRead: false,
+  },
 ];
 
-const showStatus = () => {};
+const showStatus = (library: Book[]) => {
+  library.forEach((book: Book) => {
+    if (book.isRead) {
+      console.log(`Already read '${book.title}' by ${book.author}. `);
+    } else {
+      console.log(`You still need to read '${book.title}' by ${book.author}.`);
+    }
+  });
+};
 
 showStatus(library);
 

@@ -8,11 +8,20 @@ export {};
  */
 
 // You are allowed to change only this function
-function convertToUSD() {}
+/*
+const CONVERSION_RATE_EUR_USD = 1.09;
+
+function convertToUSD() {
+
+    }
+    function addFee(price: number): number{
+        return price + price * CONVERSION_FEE;
+    }
+
 
 const product = "You don't know JS";
 const price = 19.99;
-const priceInUSD = convertToUSD(price);
+const priceInUSD = convertToUSD(price );
 
 console.log("Product: " + product);
 console.log("Price: $" + priceInUSD);
