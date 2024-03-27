@@ -8,4 +8,9 @@ export {};
  *  - https://javascript.info/array
  */
 
-console.log(stringToArray(["John Doe"])); // Expected output: ['John', 'Doe']
+function stringToArray(fullName: string): string[] {
+  return fullName.split(" ");
+}
+
+const nameArray = stringToArray("John Doe");
+console.log(nameArray); // Expected output: ['John', 'Doe']
